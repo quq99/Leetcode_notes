@@ -1,3 +1,5 @@
+First, test case. notice to check the input array size, if it is smaller than 2, we can not find the results.
+
 In this problem, it is straightforward to get a brute force solution. We just at each time pick one element and check all the elements after the picked one, if we find two elements add up to the value of target value, then we push these two into a vector and return.
 
 The time complexity of this method is $O(n^2)$. And we are not satisfied with this solution. Since we have to check all the elements in the array, theoretically we can not be faster than $O(n)$. So, we may ask, if we can find out a solution that has time complexity of $O(n)$? How do we find that?
