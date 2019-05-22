@@ -19,3 +19,9 @@ If the answer is yes, how can we do that?
 We want to just sweep once and we also want to push the information into hash map. So we only can push the information into hash map when we sweep the array. To be specific, we use the same example as above.
 
 First,  at 2 of [2, 7, 11, 15], we calculate remain to be 9-2=7, so we check if 7 is in the hash map. And it is not, so we push <2, 0> into hash map. Then we go on. Next we at 7 of [2, 7, 11, 15], we calculate remain to be 9-7=2, so we check if 2 is in the hash map, and it is. so we save the index of 2 and 7 in the return vector. 
+
+We can see in this algorithm, the time complexity is $O(n)$ and we only need to sweep the array once in the worst case.
+
+One last question, does this algorithm guaranteed to find the solution if there exists a solution? Suppose we are at the $i_{th}$ elements of the array(we call it nums[i]), and suppose nums[i] is one of the elements that can add up to the target value. Suppose the other one is nums[j] at $j_{th}$ of the array. $i, j \in [0, length\_of\_array-1]$. If j is smaller than i, then we have <nums[j], j> already in the hash map, so we can find the solution. If j is bigger than i, then this time we will add <nums[i], i> into the hash map and continue sweeping. When we at position j,  <nums[i], i> is already in hash map, so we can still find the solution. So, we are done^_^
+
+ 
