@@ -1,0 +1,7 @@
+In this problem, it is straightforward to get a brute force solution. We just at each time pick one element and check all the elements after the picked one, if we find two elements add up to the value of target value, then we push these two into a vector and return.
+
+The time complexity of this method is $O(n^2)$. And we are not satisfied with this solution. So, we may ask, if we can find out a solution that has time complexity of $O(n)$? How do we find that?
+
+So if the time complexity is $O(n)$, this means each time when we deal with an element in the given array, we only do constant operations. And this means we need to save some information about the array elements. How can we find a element in constant time complexity? Hash Map! So we sacrifice the memory complexity to get a faster algorithm.
+
+OK, we can easily see we can sweep the array first and store the element in the hash map, <the_value_of_the_element, the_index_of_the_element>. For instance, if we have an array [2, 7, 11, 15] and the target number is 9. The hash map will be: <2, 0>, <7, 1>, <11, 2>, <15, 3>. Then, we sweep the array again. This time we can use the information in the hash map to find the indices of that two numbers. 
