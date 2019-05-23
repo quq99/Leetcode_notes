@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
-class Solution {
+class TwoSum {
     public:
         vector<int> twoSum(vector<int>& nums, int target) {
             int len = nums.size();
