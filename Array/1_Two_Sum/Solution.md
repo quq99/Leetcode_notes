@@ -1,3 +1,7 @@
+# Solution for problem 1_Two_Sum
+
+
+
 First, test case. notice to check the input array size, if it is smaller than 2, we can not find the results.
 
 In this problem, it is straightforward to get a brute force solution. We just at each time pick one element and check all the elements after the picked one, if we find two elements add up to the value of target value, then we push these two into a vector and return.
