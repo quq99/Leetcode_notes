@@ -33,3 +33,4 @@ public:
 
 
 
+The time complexity of this method is $O(n^2)$. And we are not satisfied with this solution. Since we have to check all the elements in the array, theoretically we can not be faster than $O(n)$. So, we may ask, if we can find out a solution that has time complexity of $O(n)$? How do we find that?
