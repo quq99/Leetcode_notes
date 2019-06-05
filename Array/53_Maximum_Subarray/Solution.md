@@ -39,7 +39,7 @@ Since we need to store some information about the array, and  we may need to upd
 
 At first, I think the sub problem should look like: `maxSubArray(int A[], int i, int j)`. However, if we define the format of the sub problem in this way, it's hard to find the connection from the sub problem to the original problem. It is difficult for me to manage the solutions of the sub problems to get the solution of the original one.
 
-So I change the format of the sub problem into something like: `maxSubArray(int A[], int i)`, which means the maxSubArray for A[0:i ] which must has A[i] as the end element. Now we have to keep track of each solution of the sub problem to update the global optimal value. However, now the connect between the sub problem & the original one becomes clearer:
+So I change the format of the sub problem into something like: `maxSubArray(int A[], int i)`, which means the maxSubArray for A[0:i ] which must has A[i] as the end element. The idea behind this is instead of dealing with two variables at the same time, we solve one variable and treat it as a sub problem of the global problem. Now we have to keep track of each solution of the sub problem to update the global optimal value. However, now the connect between the sub problem & the original one becomes clearer:
 
 
 
