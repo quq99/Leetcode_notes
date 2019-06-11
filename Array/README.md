@@ -6,7 +6,7 @@
 | 88_Merge_Sorted_Array                |        |      |
 | 283_Move_Zeroes                      |        |      |
 | 167_Two_Sum_II_Input_array_is_sorted |        |      |
-|                                      |        |      |
+| 697_Degree_of_an_Array               |        |      |
 |                                      |        |      |
 |                                      |        |      |
 
