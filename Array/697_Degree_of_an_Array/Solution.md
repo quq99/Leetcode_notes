@@ -25,3 +25,5 @@ For example, when we finish sweeping the array, what we have is a hash table tha
 It means that `1` appears 3 times, start from index 0 and end in 6 of the array; `2` appears 3 times, start from 1 and end in 5; `3` appears only once and at index 3. The degree of the array is "3".
 
 The next step is easy, we just check the element that has degree frequency, and use a tmp variable to record the minmum length of (end_index - start_index + 1).
+
+Because we only sweep the array twice, the time complexity is O(N). The space complexity is also O(N) because we use hash table.
