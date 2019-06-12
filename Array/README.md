@@ -8,6 +8,8 @@
 | 167_Two_Sum_II_Input_array_is_sorted |        |      |
 | 697_Degree_of_an_Array               |        |      |
 | 243_Shortest_Word_Distance           |        |      |
+| 66_Plus_One                          |        |      |
+|                                      |        |      |
 |                                      |        |      |
 
 
