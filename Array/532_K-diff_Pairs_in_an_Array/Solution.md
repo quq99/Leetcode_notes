@@ -10,7 +10,7 @@ There are many ways to do this. I use the `Hash Map`.
 
 First use a hash table to store the elements and their frequency.
 
-Then, we track all the elements in the hash table. Note that as I explained above, we need to consider two cases, when k==0, we only to check if the frequency is bigger than 1; when k>0, we need to check if there is the corresponding element in the hash table.
+Then track all the elements in the hash table. Note that as I explained above, we need to consider two cases, when k==0, we only to check if the frequency is bigger than 1; when k>0, we need to check if there is the corresponding element in the hash table.
 
 So, take example 2 and example 3,
 
