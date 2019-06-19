@@ -15,6 +15,8 @@
 | 532_K-diff_Pairs_in_an_Array                 |        |      |
 | 1002_Find_Common_Characters                  |        |      |
 | 724_Find_Pivot_Index                         |        |      |
+| 605_Can_Place_Flowers                        |        |      |
+|                                              |        |      |
 
 
 
