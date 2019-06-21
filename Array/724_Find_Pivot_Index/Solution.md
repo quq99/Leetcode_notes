@@ -6,7 +6,7 @@ I may think if O(N) is possible, then we need to sweep the array and record temp
 
 If we have array `A` and the length is `len` We use `A[i, j]` to represent the sum of elements from index i to j. 
 
-So let's see what will happen for general case, then the initial case and end case.
+So let's see what will happen for general case, then the initial case and end case. Let's see if we can find some regular pattern.
 
 Consider the normal cases in which we know index  `0~(i-1)` is impossible, now we consider index is `i`. because we know pivot index (i-1) is impossible, so  A[0, i-2] are not equal to A[i, len-1]. When we consider index i, we need to know the A[0, i-1] and A[i+1, len-1]. Since we already know A[0, i-2] and A[i, len-1]. So just use the following property
 
