@@ -44,5 +44,5 @@ In this repo, I choose C++. But you can choose whatever language you want. In my
 
 ## Thanks
 
-Thanks for [leetcode](<https://leetcode.com/) and [leetcode forum](https://leetcode.com/discuss/). You can see all the problems and discussions in leetcode and practice online.
+Thanks for [leetcode](https://leetcode.com/) and [leetcode forum](https://leetcode.com/discuss/). You can see all the problems and discussions in leetcode and practice online.
 
