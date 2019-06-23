@@ -28,5 +28,23 @@ Then take `F:5:3`, Exp1 is a character, we can deal with is now.  now look at wh
 
 Ok, from this example we know we need an additional stack to store T or F. Next let us consider more complex example.
 
-  
+ ```c
+Input : "F?T:F?T?1:2:F?3:4"
+Output : "4"
+ ```
 
+First character is `F`, followed with `?`, so stack is |F |(right side is top), put Exp1 and Exp2 into next recursion.
+
+Then take `T:F?T?1:2:F?3:4`, Exp1 is a single character, pop stack, get F, so put Exp2 into next recursion.
+
+Then take `F?T?1:2:F?3:4`, Exp1 is not a single character, because the second character is "?" rather than ":". So store F, stack is now | F |, and put Exp1 and Exp2 into next recursion.
+
+Then take `T?1:2:F?3:4`, similar to previous step, push T to stack, stack now | F T |, put Exp1 and Exp2 into next recursion.
+
+Then take `1:2:F?3:4`, Exp1 is a single character, pop stack to get T, so we get 1 and get rid of 2, then the rest is 1 and F?3:4, concat then.
+
+Then take `1:F?3:4`, Exp1 is a single character, pop stack to get F, so put Exp2 into next recursion. The rest is simple and I would skip them.
+
+Now we know when Exp1 is a single character, we can pop stack to get F or T. If we get F, just put Exp2 into the next recursion. If we get T, the operation would be a little bit tricky, because we need to find Exp2 and get rid of it and then concat Exp1 with the rest string. In the example above, `1:2:F?3:4`. Exp2 is "2", but what if it is an expression like `T?T?F:5:3` how can we recognize and extract it? Because we notice that the ? and : appear as pairs, so we just use a `count` variable, init to be `1`, when meet `?` , `count++`, when meet `:`, `count--`. When `count==0` it means we find the first `:` after Exp2. 
+
+Because we just sweep the array once, the time complexity is O(N).
