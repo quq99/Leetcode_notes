@@ -19,6 +19,11 @@
 | 581_Shortest_Unsorted_Continuous_Subarray    |        |      |
 | 849_Maximize_Distance_to_Closest_Person      |        |      |
 | 414_Third_Maximum_Number                     |        |      |
+| 941_Valid_Mountain_Array                     |        |      |
+|                                              |        |      |
+|                                              |        |      |
+|                                              |        |      |
+|                                              |        |      |
 
 
 
