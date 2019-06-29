@@ -12,3 +12,4 @@ For example, in the previous example, we have map `<1, 4> , <2, 6> ` , then take
 
 
 
+The calculation of greatest common devide is regarded as constant, so the time complexity is O(N).
