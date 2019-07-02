@@ -1,13 +1,13 @@
 # Leetcode_notes
 This is a repo for recording my experience in leetcode.com. 
 
-I practice by following the `tag` in leetcode. In each problem directory, the code can be seen in .cpp file and the notes can be seen in markdown file `Solution.md` . Enjoy!
+I practice by following the `tag` in leetcode. In each problem directory, the code can be seen in `.cpp` file and the notes can be seen in markdown file `Solution.md` . Enjoy!
 
 
 
 ## What is new in this repo
 
-For each problem in this repo, I write a `Solution.md` file to record the procedure of dealing with the problem, I record how I think about the problem and how I get the optimal solution step by step, from brute force to optimal. Because I think the key point is the way of solving the problem rather than just understand the solution itself. The thinking process is more important than the problem itself considering that Leetcode now has more than 1,000 problems(and the amount of problem is still growing at a fast speed) and it is inefficient to cover all the problems.
+For each problem in this repo, I write a `Solution.md` file to record the my thinking process of dealing with the problem, I record how I think about the problem and how I get the optimal solution step by step, from brute force to optimal. Because I think the key point is the way of solving the problem rather than just understand the solution itself. The thinking process is more important than the problem itself considering that Leetcode now has more than 1,000 problems(and the amount of problem is still growing at a fast speed) and it is inefficient to cover all the problems.
 
 
 
