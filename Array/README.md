@@ -6,7 +6,7 @@
 | 88_Merge_Sorted_Array                        | 289_Game_of_Life                  |      |
 | 283_Move_Zeroes                              | 11_Container_With_Most_Water      |      |
 | 167_Two_Sum_II_Input_array_is_sorted         | 79_Word_Search                    |      |
-| 697_Degree_of_an_Array                       |                                   |      |
+| 697_Degree_of_an_Array                       | 560_Subarray_Sum_Equals_K         |      |
 | 243_Shortest_Word_Distance                   |                                   |      |
 | 66_Plus_One                                  |                                   |      |
 | 448_Find_All_Numbers_Disappeared_in_an_Array |                                   |      |
