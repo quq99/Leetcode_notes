@@ -5,7 +5,7 @@
 | 121_Best_time_to_sell_and_buy_Stock          | 33_Search_in_Rotated_Sorted_Array |      |
 | 88_Merge_Sorted_Array                        | 289_Game_of_Life                  |      |
 | 283_Move_Zeroes                              | 11_Container_With_Most_Water      |      |
-| 167_Two_Sum_II_Input_array_is_sorted         |                                   |      |
+| 167_Two_Sum_II_Input_array_is_sorted         | 79_Word_Search                    |      |
 | 697_Degree_of_an_Array                       |                                   |      |
 | 243_Shortest_Word_Distance                   |                                   |      |
 | 66_Plus_One                                  |                                   |      |
