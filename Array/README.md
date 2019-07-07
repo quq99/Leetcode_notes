@@ -8,7 +8,7 @@
 | 167_Two_Sum_II_Input_array_is_sorted         | 79_Word_Search                    |      |
 | 697_Degree_of_an_Array                       | 560_Subarray_Sum_Equals_K         |      |
 | 243_Shortest_Word_Distance                   | 621_Task_Scheduler                |      |
-| 66_Plus_One                                  |                                   |      |
+| 66_Plus_One                                  | 974_Subarray_Sums_Divisible_by_K  |      |
 | 448_Find_All_Numbers_Disappeared_in_an_Array |                                   |      |
 | 665_Non_decreasing_Array                     |                                   |      |
 | 628_Maximum_Product_of_Three_Numbers         |                                   |      |
