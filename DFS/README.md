@@ -1,7 +1,7 @@
 | easy | medium                        | hard |
 | :--- | ----------------------------- | ---- |
 |      | 439_Ternary_Expression_Parser |      |
-|      |                               |      |
+|      | 695_Max_Area_of_Island        |      |
 |      |                               |      |
 |      |                               |      |
 |      |                               |      |
