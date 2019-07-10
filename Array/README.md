@@ -12,7 +12,7 @@
 | 448_Find_All_Numbers_Disappeared_in_an_Array | 39_Combination_Sum                                         |      |
 | 665_Non_decreasing_Array                     | 34_Find_First_and_Last_Position_of_Element_in_Sorted_Array |      |
 | 628_Maximum_Product_of_Three_Numbers         | 78_Subsets                                                 |      |
-| 532_K-diff_Pairs_in_an_Array                 |                                                            |      |
+| 532_K-diff_Pairs_in_an_Array                 | 277_Find_the_Celebrity                                     |      |
 | 1002_Find_Common_Characters                  |                                                            |      |
 | 724_Find_Pivot_Index                         |                                                            |      |
 | 605_Can_Place_Flowers                        |                                                            |      |
