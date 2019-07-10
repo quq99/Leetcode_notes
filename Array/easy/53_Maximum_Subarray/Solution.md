@@ -44,7 +44,7 @@ So I change the format of the sub problem into something like: `maxSubArray(int 
 
 
 ```c
-maxSubArray(A, i) = maxSubArray(A, i - 1) > 0 ? maxSubArray(A, i - 1) : 0 + A[i]; 
+maxSubArray(A, i) = maxSubArray(A, i - 1) > 0 ? maxSubArray(A, i - 1) + A[i] : 0 + A[i]; 
 ```
 
 Each time when we update the maxSubArray, we compare it with the global max sum value and update it. Finally we will get the optimal sum of subarray for the whole array.
