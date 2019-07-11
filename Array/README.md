@@ -14,7 +14,7 @@
 | 628_Maximum_Product_of_Three_Numbers         | 78_Subsets                                                 |      |
 | 532_K-diff_Pairs_in_an_Array                 | 277_Find_the_Celebrity                                     |      |
 | 1002_Find_Common_Characters                  | 287_Find_the_Duplicate_Number                              |      |
-| 724_Find_Pivot_Index                         |                                                            |      |
+| 724_Find_Pivot_Index                         | 55_Jump_Game                                               |      |
 | 605_Can_Place_Flowers                        |                                                            |      |
 | 581_Shortest_Unsorted_Continuous_Subarray    |                                                            |      |
 | 849_Maximize_Distance_to_Closest_Person      |                                                            |      |
