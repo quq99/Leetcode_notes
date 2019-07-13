@@ -16,4 +16,4 @@ $$\mathrm{grid}(i, j)=\mathrm{grid}(i,j)+\min \big(\mathrm{grid}(i+1,j), \mathrm
 
 ![image](./download.png)
 
-Take this picture as an example, if we are at 2, and we already know right step is 8 and down step is 13, so min(8+2, 13+2)= 10. Notice at the bottom row and the rightmost column we just need to update the current according to the previous one.
+In the code, I replace the original matrix in place, but in order to illustrate it more clearly, I separate them. Take this picture as an example, if we are at 2, and we already know right step is 8 and down step is 13, so min(8+2, 13+2)= 10. Notice at the bottom row and the rightmost column we just need to update the current according to the previous one.
