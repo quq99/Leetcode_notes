@@ -16,7 +16,7 @@
 | 1002_Find_Common_Characters                  | 287_Find_the_Duplicate_Number                              |      |
 | 724_Find_Pivot_Index                         | 55_Jump_Game                                               |      |
 | 605_Can_Place_Flowers                        | 75_Sort_Colors                                             |      |
-| 581_Shortest_Unsorted_Continuous_Subarray    |                                                            |      |
+| 581_Shortest_Unsorted_Continuous_Subarray    | 64_Minimum_Path_Sum                                        |      |
 | 849_Maximize_Distance_to_Closest_Person      |                                                            |      |
 | 414_Third_Maximum_Number                     |                                                            |      |
 | 941_Valid_Mountain_Array                     |                                                            |      |
