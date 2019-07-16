@@ -1,10 +1,14 @@
 # Solution for problem 64_Minimum_Path_Sum
 
+One simple way of doing this problem is DFS, but you have to notice the duplicate path.
+
+Another easy understanding way is DP method. And the best you can do is O(MN) time complexity.
+
 We start by initializing the bottom rightmost element of dp as the last element of the given matrix. Then for each element starting from the bottom right, we traverse backwards and fill in the matrix with the required minimum sums. So from rightmost bottom to leftmost top, from right to left.
 
 
 
-We can store the minimum sums in the original matrix itself, since we need not retain the original matrix here. Thus, the governing equation now becomes:
+We can store the minimum sums in the original matrix itself, since we need not retain the original matrix here. In this way, the sapce complexity is ony O(1). Thus, the governing equation now becomes:
 
 
 
