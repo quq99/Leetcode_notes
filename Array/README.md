@@ -17,7 +17,7 @@
 | 724_Find_Pivot_Index                         | 55_Jump_Game                                               |      |
 | 605_Can_Place_Flowers                        | 75_Sort_Colors                                             |      |
 | 581_Shortest_Unsorted_Continuous_Subarray    | 64_Minimum_Path_Sum                                        |      |
-| 849_Maximize_Distance_to_Closest_Person      |                                                            |      |
+| 849_Maximize_Distance_to_Closest_Person      | 152_Maximum_Product_Subarray                               |      |
 | 414_Third_Maximum_Number                     |                                                            |      |
 | 941_Valid_Mountain_Array                     |                                                            |      |
 | 914_X_of_a_Kind_in_a_Deck_of_Cards           |                                                            |      |
