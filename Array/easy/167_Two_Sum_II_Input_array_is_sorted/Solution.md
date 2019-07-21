@@ -29,3 +29,41 @@ First, `i=0, j=3`, 2+15 is bigger than 9, so `j=j-1`,
 `i=0,j=2`,2+11 is bigger than 9, so again `j=j-1`
 
 `i=0,j=1` now 2+7=9, ok.
+
+
+
+
+
+Another way is to fix one index at one point and use binary search to find the other index.
+
+```c++
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int len = numbers.size();
+        if (len < 2) return {};
+        for (int i = 0; i < len-1; i++) {
+            // each time fix left index as i
+            // and use binary search to find the right index
+            int l = i + 1;
+            int r = len - 1;
+            while (l <= r) {
+                int mid = l + ( r - l) / 2;
+                int remain = target - numbers[i];
+                if (numbers[mid] == remain) return {i+1, mid+1};
+                else if (numbers[mid] < remain) {
+                    l = mid + 1;
+                }
+                else {
+                    r = mid - 1;
+                }
+            }
+        }
+        return {};
+    }
+};
+```
+
+
+
+The run time is O(NlogN).
