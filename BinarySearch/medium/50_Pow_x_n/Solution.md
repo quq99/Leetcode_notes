@@ -18,3 +18,5 @@ Next, n = 2, tmp = 2, count =1. check count*2 with n, it is smaller than n. so c
 
 
 
+Because each time we devide into 2 part, so T(N) = 2T(N/2) + O(1). so time complexity is O(logN).
+
