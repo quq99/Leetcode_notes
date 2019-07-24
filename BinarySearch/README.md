@@ -4,5 +4,5 @@
 |      | 300_Longest_Increasing_Subsequence          |      |
 |      | 410_Split_Array_Largest_Sum                 |      |
 |      | 378_Kth_Smallest_Element_in_a_Sorted_Matrix |      |
-|      |                                             |      |
+|      | 209_Minimum_Size_Subarray_Sum               |      |
 
